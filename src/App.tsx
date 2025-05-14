@@ -64,6 +64,7 @@ function App() {
 
   return (
     <>
+      <h1>Cat Curve Calc, click two points</h1>
       <div className="field" onClick={detectClick}>
         {points.map(([x, y]) => {
           return (
